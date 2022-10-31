@@ -1,0 +1,7 @@
+{
+  "name": "AECR",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

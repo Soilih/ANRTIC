@@ -1,0 +1,76 @@
+<ion-app>
+  <ion-menu  menuId="main-menu"   contentId="main">
+     <ion-content>
+        <div class="menu-header-bg"></div>
+            <div class="header-content">
+              <img src="../assets/images/profile.jpg">
+              <ion-label>
+                <h2>Dr SOILIH MOHAMED</h2>
+                <p>soilih3398421@gmail.com</p>
+              </ion-label>
+           </div>
+           <ion-list>
+              
+              <ion-menu-toggle autoHide="false">
+                <ion-item>
+                  <ion-icon name="home" slot="start"></ion-icon>
+                  <ion-label> ACCUEIL </ion-label> 
+                </ion-item>
+                <ion-item>
+                  <ion-icon name="help-circle" slot="start"></ion-icon>
+                  <ion-label>Forfait Mobile  </ion-label> 
+                </ion-item>
+           
+                <ion-item>
+                  <ion-icon name="person-add-outline" slot="start"></ion-icon>
+                  <ion-label>Offres boxs internet </ion-label> 
+                </ion-item>
+                <ion-item>
+                  <ion-icon name="person-add-outline" slot="start"></ion-icon>
+                  <ion-label>Offres equipement  </ion-label> 
+                </ion-item>
+                <ion-item>
+                  <ion-icon name="person" slot="start"></ion-icon>
+                  <ion-label>Faire la Simulation  </ion-label> 
+                </ion-item>
+                <ion-item>
+                  <ion-icon name="help" slot="start"></ion-icon>
+                  <ion-label> Porter plainte  </ion-label> 
+                </ion-item>
+                <ion-item>
+                  <ion-icon name="home" slot="start"></ion-icon>
+                  <ion-label>Couverture reseau  </ion-label> 
+                </ion-item>
+                <ion-item>
+                  <ion-icon name="log-in" slot="start"></ion-icon>
+                  <ion-label>Deconnexion </ion-label> 
+                </ion-item>
+                
+              </ion-menu-toggle>
+            </ion-list>
+        </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+  <ion-tabs>
+      <ion-tab-bar slot="bottom">
+          <ion-tab-button tab="about">
+            <ion-icon name="grid-outline"></ion-icon>
+            <ion-label>A propos </ion-label>
+          </ion-tab-button>
+      
+      
+        <ion-tab-button tab="reglementation">
+          <ion-icon name="business-outline"></ion-icon>
+          <ion-label> Reglementation </ion-label>
+        </ion-tab-button>
+    
+     
+        <ion-tab-button tab="contact">
+          <ion-icon name="information-circle-outline"></ion-icon>
+          <ion-label> Informations </ion-label>
+        </ion-tab-button>
+     
+      </ion-tab-bar>
+
+  </ion-tabs>
+</ion-app>
